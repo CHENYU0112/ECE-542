@@ -24,6 +24,8 @@ X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_sta
 
 
 #save to pickle for next task
-df.to_pickle('train_test_df.pk1')
-
+X_train.to_pickle("X_train.pk1")
+y_train.to_pickle("y_train.pk1")
+X_test.to_pickle("X_test.pk1")
+y_test.to_pickle("y_test.pk1")
 
